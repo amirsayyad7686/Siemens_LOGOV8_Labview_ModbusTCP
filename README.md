@@ -19,4 +19,10 @@ now every things are ready we should download FBD on LOGO and then making a conn
 
 ![labview](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/0229fab4-98df-4f56-b121-4110484960ff)
 
-1- at first we should making 
+1- at first create modbus instance and point the ip address of LOGO and also point port (default is 502)
+
+2- write single coil block is for trigger a coil(Q) on LOGO by sending coil address like Q1 start with 8192 & Q2 = 8193 &...
+for example if write 8192 on write single coil input then toggle the button coil Q1 will ON
+
+3- read dicrite 
+
