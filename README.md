@@ -6,7 +6,9 @@ Connection between LOGOV8 with Labview over modbust TCP/IP protocol
 ![modbus-organization-inc-vector-logo](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/11fb8b33-3f69-437d-8a35-44c0329ca5a3)
 
 Program LOGO (FBD) at first here is an example with 2 output coils & 2 inputs & 2 memories and 1 analog input
-files are attached (included Logosoft comfort v8.3 and Labview 2023 Q1
+> [!IMPORTANT]
+> files are attached (included Logosoft comfort v8.3 and Labview 2023 Q1)
+
 
 ![logosoft](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/1aa94516-9e92-4653-9922-378435bcfc26)
 
@@ -26,12 +28,12 @@ now every things are ready we should download FBD on LOGO and then making a conn
 
 1- at first create modbus instance and point the ip address of LOGO and also point port (default is 502)
 
-2- write single coil block is for trigger a coil(Q) on LOGO by sending coil address like Q1 start with 8192 & Q2 = 8193 &...
+2- `write single coil` block is for trigger a coil(Q) on LOGO by sending coil address like Q1 start with 8192 & Q2 = 8193 &...
 for example if write 8192 on write single coil input then toggle the button coil Q1 will ON
 
-3- read discrete inputs that are LOGO digital inputs (DI) and its read only it means you can monitor your input triggers
+3- `read discrete inputs` that are LOGO digital inputs (DI) and its read only it means you can monitor your input triggers
 
-4- read coils used for monitoring coils (Q) and memories (M) with modbus address space list for example M1 modbus number is 8256 in this example Q1 & Q2 are monitored with modbus number 8192 & 8193
+4- `read coils` used for monitoring coils (Q) and memories (M) with modbus address space list for example M1 modbus number is 8256 in this example Q1 & Q2 are monitored with modbus number 8192 & 8193
 
-5- read input register is for reading register address and value on modbus protocol in this example we have register number 0 & 1 as AI1 & AI2 that are analog inputs(0-10v) in LOGO V8.3 
+5- `read input register` is for reading register address and value on modbus protocol in this example we have register number 0 & 1 as AI1 & AI2 that are analog inputs(0-10v) in LOGO V8.3 
 
