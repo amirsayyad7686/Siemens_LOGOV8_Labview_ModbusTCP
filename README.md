@@ -6,6 +6,7 @@ Connection between LOGOV8 with Labview over modbust TCP/IP protocol
 ![modbus-organization-inc-vector-logo](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/11fb8b33-3f69-437d-8a35-44c0329ca5a3)
 
 Program LOGO (FBD) at first here is an example with 2 output coils & 2 inputs & 2 memories and 1 analog input
+files are attached (included Logosoft comfort v8.3 and Labview 2023 Q1
 
 ![logosoft](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/1aa94516-9e92-4653-9922-378435bcfc26)
 
