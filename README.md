@@ -15,4 +15,8 @@ every FBD blocks in program have a unic address in modbus connection here we can
 
 ![logosoft3](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/bb78cc01-f625-402f-a84e-cced2fe8c51c)
 
+now every things are ready we should download FBD on LOGO and then making a connection on Labview using Modbus lib (NI Modbus Library)
 
+![labview](https://github.com/amirsayyad7686/Siemens_LOGOV8_Labview_ModbusTCP/assets/78236642/0229fab4-98df-4f56-b121-4110484960ff)
+
+1- at first we should making 
