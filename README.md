@@ -27,5 +27,7 @@ now every things are ready we should download FBD on LOGO and then making a conn
 2- write single coil block is for trigger a coil(Q) on LOGO by sending coil address like Q1 start with 8192 & Q2 = 8193 &...
 for example if write 8192 on write single coil input then toggle the button coil Q1 will ON
 
-3- read dicrite 
+3- read discrete inputs that are LOGO digital inputs (DI) and its read only it means you can monitor your input triggers
+
+4- read coils used for monitoring coils (Q) and memories (M) with modbus address space list for example M1 modbus number is 8256 in this example Q1 & Q2 are monitored with modbus number 8192 & 8193
 
